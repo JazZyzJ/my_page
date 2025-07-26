@@ -15,6 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jazzyzj.me"
+title: "Zijie Chen 陈子杰"
+description: ".."
+
+
 
 # Build settings
 markdown: kramdown
@@ -38,4 +42,4 @@ plugins:
 collections:
   - publications
   - news
-  - showcase
+  # - showcase
