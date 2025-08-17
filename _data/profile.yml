@@ -40,17 +40,24 @@ education:
   position: >- 
     Department of Electrical Engineering and Computer Science <br/>
     Ph.D. Student
-  date: Sep. 2024 - present
+  date: Sep. 2027 - present
 - name: Zhejiang University
   logo: /assets/images/badges/zju.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+  position: B.S. in Computer Science(Honor)
+  date: Sep. 2023 - Jul. 2027
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Zhejiang University CADD Lab
+  logo: /assets/images/badges/zju.png
+  position: Research Intern
+  date: Jun. 2024 - present
+  
+- name: Cornell University
+  logo: /assets/images/badges/Cornell.png
+  position: Exchange Student & Research Intern
+  date: Jan. 2026 - May. 2026
+
+
 
 awards:
 - name: Award Name 2
