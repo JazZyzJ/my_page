@@ -3,6 +3,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    font-size: 1.20rem;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -35,11 +36,13 @@ h1, h2, h3, h4, h5, h6,
 
 .text-profile-position {
     font-weight: 400;
+    font-size: 1.15rem;
 }
 
 .text-profile-bio {
     /* font-family: "Raleway"; */
     font-weight: 400;
+    font-size: 1.15rem;
 }
 
 .navbar {
