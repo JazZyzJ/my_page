@@ -10,7 +10,7 @@ positions:
 
 email: "chenzijie040528@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
+gscholar:   # This is an example, replace it with your own Google Scholar ID
 github: jazzyzj
 twitter: MessiChenZJ  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
@@ -27,6 +27,10 @@ short_bio: >-
 
   <p>
     My research interst lies in the intersection of <strong>generative models</strong> and <strong>AI4Sciences</strong>, aiming at interpreting the bio & physical world to create. Previously I focus on molecular generation and optimization with specific constraints. And I'm also interested in exploring single cells and their interactions with targeted interventions.
+  </p>
+
+  <p>
+    I'm also a member of Zhejiang University Orchestra playing 🎷. I like 🏀 & 🎱 and I'm a fan of Leo Messi and Stephen Curry.
   </p>
 
 portrait_url: /assets/images/photos/1.jpg
