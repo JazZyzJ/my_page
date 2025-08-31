@@ -16,7 +16,10 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jazzyzj.me"
 title: "Zijie Chen 陈子杰"
-description: ".."
+description: "Zijie Chen(陈子杰)'s homepage"
+keywords: "Zijie Chen, 陈子杰, ZJU, Zhejiang University, Computer Science, Turing Class, AI4Sciences"
+author: "Zijie Chen"
+
 
 
 
@@ -24,6 +27,8 @@ description: ".."
 markdown: kramdown
 plugins:
   - jekyll-email-protect
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
