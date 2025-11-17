@@ -50,15 +50,19 @@ education:
   date: Sep. 2023 - Jul. 2027
 
 experience:
+
+
+- name: Princeton University
+  logo: /assets/images/badges/Princeton.png
+  position: Research Intern
+  date: Aug. 2025 - present
+
+
 - name: Zhejiang University CADD Lab
   logo: /assets/images/badges/zju.png
   position: Research Intern
   date: Jun. 2024 - present
-  
-# - name: Cornell University
-#   logo: /assets/images/badges/Cornell.png
-#   position: Exchange Student & Research Intern
-#   date: Jan. 2026 - May. 2026
+
 
 
 
