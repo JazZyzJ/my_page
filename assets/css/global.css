@@ -93,3 +93,8 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+/* 强制头像为圆形
+img.profile, img.profile-pic, img.avatar, img.rounded-img, img.img-fluid {
+    border-radius: 50% !important;
+    object-fit: cover;
+} */
