@@ -98,3 +98,47 @@ img.profile, img.profile-pic, img.avatar, img.rounded-img, img.img-fluid {
     border-radius: 50% !important;
     object-fit: cover;
 } */
+
+/* Publication widgets: links read as “clickable text”, not classic underlined URLs */
+a.pub-title-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a.pub-title-link:hover,
+a.pub-title-link:focus {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a.pub-title-link:focus {
+    outline: 2px solid rgba(0, 123, 255, 0.35);
+    outline-offset: 2px;
+}
+
+.abstract-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.abstract-links a:hover,
+.abstract-links a:focus {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Publication cover image: 4:3 landscape, vertically centered */
+.pub-cover-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pub-cover-col img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
