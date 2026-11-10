@@ -36,15 +36,12 @@ short_bio: >-
   </p>
 
 research_interests:
-- name: AI for biological understanding
+- name: AI for Biological Understanding
   description: >-
-    How can models learn the relationships between molecular sequence, structure, interactions, and function,
-    and how can we evaluate this understanding in specific biological contexts?
-- name: Programmable biomolecular design
+    How can AI uncover principles governing molecular hidden data structure, interactions, and function? How can we evaluate this understanding in specific tasks and biological contexts?
+- name: Programmable Biomolecular Design
   description: >-
-    How can we design biomolecules with desired functions and responses to their environment,
-    while meeting biological requirements? I am especially interested in using computational and experimental
-    feedback to improve both our models and subsequent designs.
+    How can we design biomolecules with functions and property combinations beyond natural repertoires while meeting specified biological requirements? How can computational and experimental feedback make this design process adaptive?
 
 personal_note: >-
   Outside research, I play saxophone in the Zhejiang University Orchestra. I previously played point guard
