@@ -6,14 +6,6 @@ description: This is the homepage of Zijie Chen(陈子杰)
 ---
 {% include widgets/profile_card.html %}
 
-{% include widgets/debug_repo_name.html %}
-
-{% include widgets/debug_url.html %}
-
-{% if site.data.display.homepage.show_experience %}
-    {% include widgets/experience_card.html %}
-{% endif %}
-
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
     {% if count_news > 0 %}
@@ -22,10 +14,21 @@ description: This is the homepage of Zijie Chen(陈子杰)
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+    {% assign pubs = site.publications | sort: "date" | reverse %}
     {% 
         include widgets/publication_card.html 
         publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications &amp; Preprints'
+        title='Publications &amp; preprints'
+        compact=true
     %}
+{% endif %}
+
+{% if site.data.display.homepage.show_experience %}
+    {% include widgets/experience_card.html %}
+{% endif %}
+{% if site.data.profile.personal_note %}
+<section class="personal-section" aria-labelledby="beyond-research-heading">
+    <h2 id="beyond-research-heading">Beyond research</h2>
+    <p>{{ site.data.profile.personal_note }}</p>
+</section>
 {% endif %}
